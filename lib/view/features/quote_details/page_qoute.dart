@@ -23,7 +23,7 @@ class _PageQuoteState extends State<PageQuote> {
 
     final result = await showDialogUpdateQuote(context, text: text);
 
-    if (result is String && result.isNotEmpty) {
+    if (result is String) {
       _quote = _quote.copyWith(content: result);
       quoteOverviewBloc.add(QuotesOverviewUpdated(_quote));
       setState(() {});
