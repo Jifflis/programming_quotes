@@ -1,0 +1,12 @@
+{
+  "es": [
+    "an_error_occurred",
+    "delete",
+    "list_of_quotes",
+    "no_results_found",
+    "quote",
+    "try_again",
+    "update",
+    "edit"
+  ]
+}
